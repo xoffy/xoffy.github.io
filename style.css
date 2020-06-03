@@ -1,0 +1,50 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #2e2a31;   
+}
+
+.widget {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0px;
+}
+
+.letter {
+    display: inline;
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 4em;
+    color: #afafaf;
+}
+
+.description {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    text-align: center;
+    font-family: sans-serif;
+    color: #f5f4f7;
+    padding: 0.5em;
+    background-color: #2e2a31;
+
+    border-color: #bcbabe;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 0.25em;
+}
