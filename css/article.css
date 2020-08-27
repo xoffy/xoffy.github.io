@@ -1,0 +1,156 @@
+
+.test {
+    base00: #ffffff;
+    base01: #e1e1e2;
+    base02: #c4c3c5;
+    base03: #a7a5a8;
+    base04: #89878b;
+    base05: #6c696e;
+    base06: #4f4b51;
+    base07: #322d34;
+    base08: #d8137f;
+    base09: #d65407;
+    base0A: #dc8a0e;
+    base0B: #17ad98;
+    base0C: #149bda;
+    base0D: #775dff;
+    base0E: #aa17e6;
+    base0F: #e013d0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #322d34;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 2em 4em;
+}
+
+/**
+  * Paragraph
+  */
+
+p {
+    margin-left: 0.33em;
+    margin-right: 0.33em;
+    line-height: 1.33;
+}
+
+/**
+  * Font for IPA
+  */
+
+.ipa {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/**
+  * Headers
+  */
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    color: #17ad98;
+}
+
+/**
+  * Table
+  */
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 0.33em;
+    margin-left: 0;
+    margin-right: 0;
+
+    display: block;
+    min-width: 100%;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+
+    overflow-x: auto;
+    /* white-space: nowrap; */
+
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #a7a5a8;
+    padding: 0.33em;
+
+    min-width: 16em;
+    max-width: 16em;
+}
+
+/**
+  * Alignment
+  */
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float-left {
+    float: left;
+    margin-right: 0.66em;
+    margin-bottom: 1em;
+}
+
+.float-right {
+    float: right;
+    margin-left: 0.66em;
+    margin-bottom: 1em;
+}
+
+.clear-both {
+    clear: both;
+}
+
+/**
+  * Accents
+  */
+
+.grey {
+    color: #c4c3c5;
+}
+
+/**
+  * Footer
+  */
+
+.footer {
+    background-color: #4f4b51;
+    color: #c4c3c5;
+
+    margin: 0;
+    padding: 2em 0;
+    text-align: center;
+
+    width: 100%;
+}
+
+/**
+  * Responsiveness.
+  */
+
+@media screen and (max-width: 720px) {
+    .content {
+        padding: 0.66em;
+    }
+
+    th, td {
+        padding: 0.33em 0.166em;
+        min-width: 12em;
+        max-width: 12em;
+    }
+
+    #deadcafe-widget .deadcafe-letter {
+        font-size: 1.33em;
+    }
+}
