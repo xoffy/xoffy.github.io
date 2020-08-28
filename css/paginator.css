@@ -1,0 +1,25 @@
+.paginator a {
+    color: #d65407;
+}
+
+.paginator a:hover {
+    color: #dc8a0e;
+}
+
+.paginator a:visited {
+    color: #d8137f;
+}
+
+.paginator .prev {
+    display: block;
+    float: left;
+}
+
+.paginator .next {
+    display: block;
+    float: right;
+}
+
+.paginator .clear {
+    clear: both;
+}

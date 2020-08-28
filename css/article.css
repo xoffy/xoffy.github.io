@@ -19,8 +19,8 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: #322d34;
+    background-color: #4f4b51;
+    color: #c4c3c5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     margin: 0;
@@ -28,6 +28,9 @@ body {
 }
 
 .content {
+    background-color: #ffffff;
+    color: #322d34;
+
     padding: 2em 4em;
 }
 
@@ -121,6 +124,36 @@ th, td {
 }
 
 /**
+  * Table of Contents
+  */
+
+#TableOfContents {
+    border: 0;
+    border-top: 8px solid #d8137f;
+    border-bottom: 8px solid #149bda;
+
+    width: fit-content;
+    padding: 0 2em 0 1em;
+
+    display: block;
+    float: right;
+}
+
+/* Eliminate H1 list element */
+#TableOfContents > ul {
+    list-style: none;
+    padding: 0;
+}
+
+#TableOfContents > ul > li > ul li {
+    list-style: decimal;
+}
+
+#TableOfContents a { color: #17ad98; }
+#TableOfContents a:hover { color: #149bda; }
+#TableOfContents a:visited { color: #aa17e6; }
+
+/**
   * Footer
   */
 
@@ -152,5 +185,20 @@ th, td {
 
     #deadcafe-widget .deadcafe-letter {
         font-size: 1.33em;
+    }
+
+    #TableOfContents {
+        float: none;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .content {
+        width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
